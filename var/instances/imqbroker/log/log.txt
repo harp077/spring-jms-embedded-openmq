@@ -442,3 +442,225 @@ Java Runtime: 1.8.0_72 Oracle Corporation /opt/jdk1.8.0_72/jre
 [#|2021-11-25T22:59:54.899+0400|INFO|5.1|org.springframework.context.support.DefaultLifecycleProcessor|_ThreadID=1;_ThreadName=main;|Starting beans in phase 2147483647|#]
 
 
+[#|2021-11-25T23:15:44.550+0400|WARNING|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[S2004]: Log output channel com.sun.messaging.jmq.util.log.SysLogHandler is disabled: no imqutil in java.library.path|#]
+
+
+[#|2021-11-25T23:15:44.560+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|
+================================================================================
+Message Queue 5.1
+Oracle
+Version:  5.1  (Build 9-b)
+Compile:  July 29 2014 1229
+
+Copyright (c) 2013, Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.8.0_72 Oracle Corporation /opt/jdk1.8.0_72/jre
+|#]
+
+
+[#|2021-11-25T23:15:44.572+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|   IMQ_HOME=/j/my/ee/jms/openmq/spring-jms-embedded-openmq_25-11-21_23-55
+|#]
+
+
+[#|2021-11-25T23:15:44.573+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|IMQ_VARHOME=/j/my/ee/jms/openmq/spring-jms-embedded-openmq_25-11-21_23-55/var
+|#]
+
+
+[#|2021-11-25T23:15:44.574+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Linux 4.4.159-std-pae-alt0.M80P.1 i386 localhost.localdomain (4 cpu) root
+|#]
+
+
+[#|2021-11-25T23:15:44.576+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Java Heap Size: max=919552k, current=79616k
+|#]
+
+
+[#|2021-11-25T23:15:44.576+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Arguments: null
+|#]
+
+
+[#|2021-11-25T23:15:44.577+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Broker Properties: imq.service.runtimeAdd=mqdirect2
+|#]
+
+
+[#|2021-11-25T23:15:44.577+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Embedded Broker 
+|#]
+
+
+[#|2021-11-25T23:15:44.588+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the portmapper service using tcp [ 7676, 50, * ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2021-11-25T23:15:44.603+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2021-11-25T23:15:44.604+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2021-11-25T23:15:44.616+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2021-11-25T23:15:44.617+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|Using built-in file-based persistent store: /j/my/ee/jms/openmq/spring-jms-embedded-openmq_25-11-21_23-55/var/instances/imqbroker/
+|#]
+
+
+[#|2021-11-25T23:15:44.734+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2021-11-25T23:15:44.751+0400|WARNING|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|WARNING [B3168]: Invalid broker address for this broker to run in cluster: Loopback IP address is not allowed in broker address mq://127.0.0.1:7676/?instName=imqbroker&brokerSessionUID=5652718301469299456&ha=false for cluster
+|#]
+
+
+[#|2021-11-25T23:15:44.752+0400|WARNING|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|WARNING [B1137]: Cluster initialization failed. Disabling the cluster service.
+|#]
+
+
+[#|2021-11-25T23:15:44.757+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2021-11-25T23:15:44.791+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|new transaction log enabled
+|#]
+
+
+[#|2021-11-25T23:15:44.791+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|sync writes to disk = false
+|#]
+
+
+[#|2021-11-25T23:15:44.792+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2021-11-25T23:15:44.792+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2021-11-25T23:15:44.792+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1392]: Opening transaction log with file mode rw, maximum size 10 485 760 bytes
+|#]
+
+
+[#|2021-11-25T23:15:44.796+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1270]: Processing messages from transaction log file...
+|#]
+
+
+[#|2021-11-25T23:15:44.797+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2021-11-25T23:15:44.799+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1503]: Retrieved 3 destinations from store
+|#]
+
+
+[#|2021-11-25T23:15:44.803+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1517]: Destroying destination harp07tt [Queue] 
+|#]
+
+
+[#|2021-11-25T23:15:44.803+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1151]: Loading destination harp07tt [Queue] with 0 messages
+|#]
+
+
+[#|2021-11-25T23:15:44.805+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1152]: Loading of destination harp07tt [Queue] complete
+|#]
+
+
+[#|2021-11-25T23:15:44.806+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1387]: Purged 0 messages from destination harp07tt [Queue]
+|#]
+
+
+[#|2021-11-25T23:15:44.811+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1159]: Destination harp07tt [Queue] has been destroyed
+|#]
+
+
+[#|2021-11-25T23:15:44.812+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1517]: Destroying destination harp07qq [Queue] 
+|#]
+
+
+[#|2021-11-25T23:15:44.813+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1151]: Loading destination harp07qq [Queue] with 0 messages
+|#]
+
+
+[#|2021-11-25T23:15:44.813+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1152]: Loading of destination harp07qq [Queue] complete
+|#]
+
+
+[#|2021-11-25T23:15:44.813+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1387]: Purged 0 messages from destination harp07qq [Queue]
+|#]
+
+
+[#|2021-11-25T23:15:44.815+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1159]: Destination harp07qq [Queue] has been destroyed
+|#]
+
+
+[#|2021-11-25T23:15:44.816+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1151]: Loading destination mq.sys.dmq [Queue] with 0 messages
+|#]
+
+
+[#|2021-11-25T23:15:44.816+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1152]: Loading of destination mq.sys.dmq [Queue] complete
+|#]
+
+
+[#|2021-11-25T23:15:44.826+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2021-11-25T23:15:44.827+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2021-11-25T23:15:44.884+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2021-11-25T23:15:44.965+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://home.localdomain/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc0AAtVbmljYXN0UmVmMgAACTEyNy4wLjAuMQAAp8gKCIuaShRx8UdqdmQAAAF9WIZufYABAHg=
+|#]
+
+
+[#|2021-11-25T23:15:45.059+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2021-11-25T23:15:45.060+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2021-11-25T23:15:45.066+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2021-11-25T23:15:45.066+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2021-11-25T23:15:45.069+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2021-11-25T23:15:45.070+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1227]: Using file user repository for mqdirect2 service connection authentication
+|#]
+
+
+[#|2021-11-25T23:15:45.079+0400|FORCE|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1039]: Broker "imqbroker@localhost.localdomain:7676" ready.
+|#]
+
+
+[#|2021-11-25T23:15:45.797+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1065]: Accepting: guest@Direct2:5652718301469598464->mqdirect2. Count: service=1 broker=1
+|#]
+
+
+[#|2021-11-25T23:15:45.802+0400|INFO|5.1|org.springframework.jms.connection.CachingConnectionFactory|_ThreadID=1;_ThreadName=main;|Established shared JMS Connection: BrokerAddress=null, ConnectionID=5652718301469598464, ReconnectEnabled: false, IsConnectedToHABroker: false|#]
+
+
+[#|2021-11-25T23:15:45.844+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1132]: Auto-creating destination harp07qq [Queue] 
+|#]
+
+
+[#|2021-11-25T23:15:45.876+0400|INFO|5.1|imq.log.Logger|_ThreadID=1;_ThreadName=main;|[B1132]: Auto-creating destination harp07tt [Queue] 
+|#]
+
+
+[#|2021-11-25T23:15:46.174+0400|INFO|5.1|org.springframework.context.support.DefaultLifecycleProcessor|_ThreadID=1;_ThreadName=main;|Starting beans in phase 2147483647|#]
+
+
